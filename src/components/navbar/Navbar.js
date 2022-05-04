@@ -17,7 +17,7 @@ const Navbar = () => {
         <img src={pinterest} className="navIcon" alt="images" /> 
         <img src={instagram} className="navIcon" alt="images" /> 
       </div>
-      <div className="navRight">
+      <div className="navCenter">
           <ul className="menuList">
             <li className="menuItem">Home</li>
             <li className="menuItem">About</li>

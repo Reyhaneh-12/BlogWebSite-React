@@ -1,0 +1,64 @@
+.navbarContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navLeft {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.navIcon {
+    width: 25px;
+    height: 25px;
+    padding: 0 5px;
+}
+
+.navCenter {
+    flex: 6;
+}
+
+.menuList {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    list-style: none;
+}
+
+.menuItem {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.navRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.profileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.searchIcon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
