@@ -1,3 +1,7 @@
 .homeContainer {
     
 }
+
+.pageContainer {
+    display: flex;
+}
