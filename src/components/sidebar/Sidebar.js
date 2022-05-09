@@ -16,14 +16,14 @@ const Sidebar = () => {
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <p className="sidebarTitle">CATEGORIES</p>
-      <div className="sidebarCategories">
-        <span className="sidebarCategory">Life</span>
-        <span className="sidebarCategory">Music</span>
-        <span className="sidebarCategory">Style</span>
-        <span className="sidebarCategory">Sport</span>
-        <span className="sidebarCategory">Tech</span>
-        <span className="sidebarCategory">Cinema</span>
-      </div>
+      <ul className="sidebarCategories">
+        <li className="sidebarCategory">Life</li>
+        <li className="sidebarCategory">Music</li>
+        <li className="sidebarCategory">Style</li>
+        <li className="sidebarCategory">Sport</li>
+        <li className="sidebarCategory">Tech</li>
+        <li className="sidebarCategory">Cinema</li>
+      </ul>
       <p className="sidebarTitle">FOLLOW US</p>
       <div className="sidebarIcons">
         <img src={facebook} className="sidebarIcon" alt="images" /> 

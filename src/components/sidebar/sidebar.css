@@ -1,4 +1,51 @@
 .sidebarContainer {
     flex: 3;
-    background: darkcyan;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    padding: 20px;
+}
+
+.sidebarTitle {
+    margin: 20px;
+    padding: 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    text-align: center;
+}
+
+.sidebarImg {
+    width: 250px;
+    height: 300px;
+}
+
+.sidebarText {
+    padding: 20px 20px 20px 40px;
+    line-height: 22px;
+}
+
+.sidebarCategories {
+    list-style: none;
+}
+
+.sidebarCategory {
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.sidebarIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarIcon {
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px;
+    cursor: pointer;
 }
