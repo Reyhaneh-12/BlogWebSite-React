@@ -1,10 +1,11 @@
 import React from 'react';
+import Post from '../post/Post';
 import './posts.css';
 
 const Posts = () => {
     return (
         <div className="postContainer">
-            mavkmfd;
+            <Post />
         </div>
     );
 };
